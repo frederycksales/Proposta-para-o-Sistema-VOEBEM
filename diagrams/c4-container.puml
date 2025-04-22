@@ -1,0 +1,66 @@
+@startuml C4_Container_VOEBEM
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Diagrama de Containers do Sistema de Reservas VOEBEM (BD Centralizado)
+
+LAYOUT_WITH_LEGEND()
+
+' Elementos Externos (do Nível 1)
+Person(passenger, "Passageiro/Cliente", "Busca, reserva e gerencia voos.")
+Person(agent, "Agente de Reservas", "Gerencia reservas via sistema interno.")
+Person(admin, "Administrador do Sistema", "Configura voos, tarifas e regras.")
+
+System_Ext(payment_system, "Sistema de Pagamentos", "Processa transações financeiras.")
+System_Ext(checkin_system, "Sistema de Check-in", "Valida reservas e status de passageiros.")
+System_Ext(gds_systems, "Sistemas GDS", "Distribuem inventário e originam reservas.")
+
+' Boundary do Sistema Principal
+System_Boundary(voebem_boundary, "Sistema de Reservas VOEBEM") {
+
+    ' Containers Principais
+    Container(spa, "Web App (SPA)", "React", "Interface web principal para Passageiros, Agentes e Admins.")
+    Container(mobile_app, "Mobile App", "React Native / Nativo", "Aplicativo móvel para Passageiros.")
+    Container(api_gateway, "API Gateway", "Ex: AWS API Gateway, Nginx", "Roteia requisições externas, autentica, aplica rate limiting.")
+
+    Container(api_reservas, "API de Reservas", "Java / Spring Boot", "Gerencia lógica de reservas, passageiros, pagamentos, GDS, check-in.")
+    Container(api_voos, "API de Voos", "Python / Django", "Gerencia inventário de voos, trechos, horários, disponibilidade.")
+    Container(svc_notificacao, "Serviço de Notificação", "Node.js", "Consome eventos e envia notificações (Email/SMS).")
+
+    ' Containers de Dados e Mensageria
+    ContainerDb(db_central, "Banco de Dados Central", "PostgreSQL", "Armazena todos os dados da aplicação (reservas, voos, etc.).")
+    ContainerDb(cache, "Cache", "Redis", "Armazena dados de sessão, disponibilidade de voos/assentos em cache.")
+    Container(message_bus, "Sistema de Mensageria", "RabbitMQ", "Fila para comunicação assíncrona entre serviços (ex: notificações).")
+
+    ' Relacionamentos Internos
+    Rel(api_gateway, api_reservas, "Encaminha requisições de reserva", "HTTPS/JSON")
+    Rel(api_gateway, api_voos, "Encaminha requisições de voo/disponibilidade", "HTTPS/JSON")
+
+    Rel(api_reservas, db_central, "Lê/Escreve", "JDBC")
+    Rel(api_voos, db_central, "Lê/Escreve", "JDBC/Python DB API")
+
+    Rel(api_reservas, api_voos, "Consulta disponibilidade/dados do voo", "HTTPS/JSON") ' Mantém-se a comunicação via API
+
+    Rel(api_reservas, cache, "Lê/Escreve (ex: locks de assento)", "Redis Protocol")
+    Rel(api_voos, cache, "Lê/Escreve (ex: disponibilidade)", "Redis Protocol")
+
+    Rel(api_reservas, message_bus, "Publica eventos (ex: ReservaConfirmada)", "AMQP")
+    Rel(svc_notificacao, message_bus, "Consome eventos", "AMQP")
+
+}
+
+' Relacionamentos com Usuários
+Rel(passenger, spa, "Usa", "HTTPS")
+Rel(passenger, mobile_app, "Usa")
+Rel(agent, spa, "Usa", "HTTPS")
+Rel(admin, spa, "Usa", "HTTPS")
+
+Rel(spa, api_gateway, "Faz chamadas API", "HTTPS/JSON")
+Rel(mobile_app, api_gateway, "Faz chamadas API", "HTTPS/JSON")
+
+' Relacionamentos com Sistemas Externos
+Rel(api_reservas, payment_system, "Processa Pagamento", "HTTPS/JSON API")
+Rel(api_reservas, gds_systems, "Sincroniza Reservas/Inventário", "HTTPS/JSON API")
+Rel(checkin_system, api_gateway, "Consulta Reserva / Atualiza Check-in", "HTTPS/JSON API")
+
+
+@enduml

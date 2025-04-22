@@ -1,0 +1,27 @@
+@startuml Blue_Green_Deploy
+title Estratégia de Deploy Blue/Green
+
+start
+:Ambiente Blue (v1) ativo;
+:Iniciar Deploy v2;
+:Provisionar Ambiente Green (v2);
+:Executar Testes no Ambiente Green;
+if (Testes OK?) then (Sim)
+  :Redirecionar Tráfego para Green (v2);
+  :Monitorar Green (v2);
+  if (Green Estável?) then (Sim)
+    :Desativar/Atualizar Blue (v1);
+    stop
+  else (Não - Problema Detectado)
+    :<<Rollback>>;
+    :Redirecionar Tráfego de volta para Blue (v1);
+    :Investigar Causa no Green (v2);
+    stop
+  endif
+else (Não)
+  :Abortar Deploy;
+  :Manter Tráfego em Blue (v1);
+  stop
+endif
+
+@enduml

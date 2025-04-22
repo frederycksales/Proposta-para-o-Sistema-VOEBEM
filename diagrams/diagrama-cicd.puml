@@ -1,0 +1,27 @@
+@startuml CI_CD_Pipeline
+title Pipeline de CI/CD (Exemplo)
+
+start
+:Commit no Git;
+if (Build & Unit Test?) then (Sucesso)
+  :Build Imagem Docker;
+  :Push Registro de Container;
+  :Deploy em Staging;
+  if (Testes Integração/Aceitação em Staging?) then (Sucesso)
+    if (Aprovação para Produção?) then (Aprovado)
+      :Deploy em Produção (Blue/Green);
+      :Monitoramento Pós-Deploy;
+    else (Rejeitado)
+      stop
+    endif
+  else (Falha)
+   :Notifica Falha;
+   stop
+  endif
+else (Falha)
+  :Notifica Falha;
+  stop
+endif
+stop
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml IncidentLifecycle
+title Ciclo de Vida Básico de um Incidente
+
+start
+:Detecção (Alerta/Manual);
+:Diagnóstico / Investigação;
+:Mitigação / Contenção;
+:Resolução / Correção;
+:Verificação da Solução;
+:Comunicação (Status/Resolução);
+:Post-mortem (Análise Causa Raiz);
+:Definição de Ações de Melhoria;
+stop
+
+@enduml

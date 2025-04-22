@@ -1,0 +1,13 @@
+@startuml FeedbackProcess
+title Fluxo Básico de Tratamento de Feedback
+
+start
+:Coleta (Diversos Canais);
+:Centralização (Ferramenta/Processo);
+:Análise e Categorização;
+:Priorização (Impacto/Frequência);
+:Ação (Backlog / Correção / Melhoria);
+:Comunicação (Fechamento do Loop - Opcional);
+stop
+
+@enduml

@@ -1,0 +1,87 @@
+@startuml C4_Component_API_Reservas
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Diagrama de Componentes da API de Reservas
+
+LAYOUT_WITH_LEGEND()
+
+' Elementos Externos (Containers e Sistemas do Nível 2)
+Container_Ext(api_gateway, "API Gateway", "Roteia requisições externas.")
+ContainerDb_Ext(db_central, "Banco de Dados Central", "PostgreSQL", "Armazena todos os dados.")
+Container_Ext(api_voos, "API de Voos", "Python/Django", "Gerencia inventário de voos.")
+ContainerDb_Ext(cache, "Cache", "Redis", "Cache de dados e locks.")
+Container_Ext(message_bus, "Sistema de Mensageria", "RabbitMQ", "Fila para eventos assíncronos.")
+System_Ext(payment_system, "Sistema de Pagamentos", "Processa pagamentos.")
+System_Ext(gds_systems, "Sistemas GDS", "Distribuem inventário e originam reservas.")
+System_Ext(checkin_system, "Sistema de Check-in", "Valida reservas/passageiros.")
+
+' Boundary do Container Pai (API de Reservas)
+Container_Boundary(api_reservas_boundary, "API de Reservas (Java/Spring Boot)") {
+
+    ' Componentes Internos
+
+    Component(reservation_controller, "Reservation Controller", "Spring MVC RestController", "Recebe requisições HTTP relacionadas a reservas.")
+    Component(passenger_controller, "Passenger Controller", "Spring MVC RestController", "Recebe requisições HTTP relacionadas a passageiros.")
+    Component(checkin_controller, "Checkin Data Controller", "Spring MVC RestController", "Expõe dados para consulta do Sistema de Check-in.")
+
+    Component(reservation_service, "Reservation Service", "Spring Service", "Orquestra a lógica de negócio principal de criação, consulta e atualização de reservas.")
+    Component(seat_service, "Seat Management Service", "Spring Service", "Gerencia seleção, bloqueio temporário e reserva de assentos.")
+    Component(payment_service, "Payment Integration Service", "Spring Service", "Coordena a interação com o Sistema de Pagamentos.")
+    Component(gds_service, "GDS Integration Service", "Spring Service", "Lida com a lógica de sincronização e reservas via GDS.")
+    Component(checkin_data_service, "Checkin Data Service", "Spring Service", "Fornece dados de reserva/assento validados para check-in.")
+
+    Component(reservation_repo, "Reservation Repository", "Spring Data JPA Repository", "Abstrai acesso aos dados de Reserva no BD.")
+    Component(passenger_repo, "Passenger Repository", "Spring Data JPA Repository", "Abstrai acesso aos dados de Passageiro no BD.")
+    Component(seat_repo, "Reserved Seat Repository", "Spring Data JPA Repository", "Abstrai acesso aos dados de Reserva_Assento no BD.")
+
+    Component(flight_client, "Flight API Client", "Feign Client / RestTemplate", "Cliente HTTP para consumir a API de Voos.")
+    Component(payment_client, "Payment Gateway Client", "SDK / RestTemplate", "Cliente para interagir com a API do Sistema de Pagamentos.")
+    Component(gds_client, "GDS API Client", "SDK / SOAP/REST Client", "Cliente para interagir com as APIs dos Sistemas GDS.")
+
+    Component(event_publisher, "Reservation Event Publisher", "Spring AMQP Template", "Publica eventos de domínio (ex: ReservaConfirmada) na mensageria.")
+    Component(seat_cache, "Seat Availability Cache", "Spring Data Redis", "Interage com o Cache Redis para locks e disponibilidade de assentos.")
+
+    ' Relacionamentos Internos (Exemplos de Fluxo)
+    Rel(reservation_controller, reservation_service, "Chama", "Java API")
+    Rel(passenger_controller, reservation_service, "Chama", "Java API") ' Ou um PassengerService dedicado, se complexo
+    Rel(checkin_controller, checkin_data_service, "Chama", "Java API")
+
+    Rel(reservation_service, reservation_repo, "Usa", "Java API")
+    Rel(reservation_service, passenger_repo, "Usa", "Java API")
+    Rel(reservation_service, seat_service, "Usa", "Java API")
+    Rel(reservation_service, payment_service, "Usa", "Java API")
+    Rel(reservation_service, gds_service, "Usa", "Java API")
+    Rel(reservation_service, flight_client, "Usa", "Java API") ' Para validar trechos/voos
+    Rel(reservation_service, event_publisher, "Usa", "Java API")
+
+    Rel(seat_service, seat_repo, "Usa", "Java API")
+    Rel(seat_service, seat_cache, "Usa", "Java API") ' Para locks
+    Rel(seat_service, flight_client, "Usa", "Java API") ' Para validar assentos na aeronave do trecho
+
+    Rel(payment_service, payment_client, "Usa", "Java API")
+    Rel(gds_service, gds_client, "Usa", "Java API")
+    Rel(gds_service, reservation_repo, "Usa", "Java API") ' Para criar/atualizar reservas do GDS
+
+    Rel(checkin_data_service, reservation_repo, "Usa", "Java API")
+    Rel(checkin_data_service, seat_repo, "Usa", "Java API")
+
+    ' Relacionamentos com Elementos Externos (do ponto de vista dos componentes)
+    Rel(reservation_repo, db_central, "Lê/Escreve dados de Reserva", "JDBC")
+    Rel(passenger_repo, db_central, "Lê/Escreve dados de Passageiro", "JDBC")
+    Rel(seat_repo, db_central, "Lê/Escreve dados de Reserva_Assento", "JDBC")
+
+    Rel(flight_client, api_voos, "Faz chamadas HTTP API", "HTTPS/JSON")
+    Rel(payment_client, payment_system, "Faz chamadas HTTP API", "HTTPS/JSON")
+    Rel(gds_client, gds_systems, "Faz chamadas API", "HTTPS/SOAP/JSON")
+
+    Rel(event_publisher, message_bus, "Publica mensagens", "AMQP")
+    Rel(seat_cache, cache, "Lê/Escreve chaves", "Redis Protocol")
+
+}
+
+' Relacionamento de Entrada/Saída Principal
+Rel(api_gateway, reservation_controller, "Encaminha requisições", "HTTPS/JSON")
+Rel(api_gateway, passenger_controller, "Encaminha requisições", "HTTPS/JSON")
+Rel(api_gateway, checkin_controller, "Encaminha requisições", "HTTPS/JSON") ' Vindo do Sistema de Check-in
+
+@enduml

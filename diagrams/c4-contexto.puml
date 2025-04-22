@@ -1,0 +1,30 @@
+@startuml C4_Contexto_VOEBEM
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+title Diagrama de Contexto do Sistema de Reservas VOEBEM
+
+LAYOUT_WITH_LEGEND()
+
+' Personas (Usuários)
+Person(passenger, "Passageiro/Cliente", "Busca, reserva e gerencia voos via canais digitais.")
+Person(agent, "Agente de Reservas", "Funcionário VOEBEM que gerencia reservas via sistema interno.")
+Person(admin, "Administrador do Sistema", "Funcionário VOEBEM que configura voos, tarifas e regras.")
+
+' Sistema Principal
+System(voebem_system, "Sistema de Reservas VOEBEM", "Gerencia inventário, reservas, voos e integrações.")
+
+' Sistemas Externos
+System_Ext(payment_system, "Sistema de Pagamentos", "Processa transações financeiras para emissão de bilhetes.")
+System_Ext(checkin_system, "Sistema de Check-in", "Valida reservas e status de passageiros antes do embarque.")
+System_Ext(gds_systems, "Sistemas GDS", "Plataformas (Amadeus, Sabre) que distribuem inventário e originam reservas.")
+
+' Relacionamentos
+Rel(passenger, voebem_system, "Usa", "HTTPS/JSON API")
+Rel(agent, voebem_system, "Usa", "HTTPS/Web App")
+Rel(admin, voebem_system, "Usa", "HTTPS/Web App")
+
+Rel(voebem_system, payment_system, "Autoriza/Confirma Pagamento", "API Request")
+Rel(voebem_system, checkin_system, "Consulta Reserva / Atualiza Check-in", "API Request")
+Rel(voebem_system, gds_systems, "Sincroniza Inventário / Reservas", "API Request / Messaging")
+
+@enduml
