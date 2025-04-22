@@ -1,22 +1,29 @@
 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS
 PUC Minas Virtual
 
-ATIVIDADE DE NIVELAMENTO
-Proposta de Solução para o Sistema VOEBEM
 
-Frederyck Baleeiro Espinheiro Sales
+**ATIVIDADE DE NIVELAMENTO**
+
+
+# Proposta de Solução para o Sistema VOEBEM
+
+
+
+**Aluno:** Frederyck Baleeiro Espinheiro Sales
+
 Castanhal - PA
+Abril de 2025
 
-Belo Horizonte
-Abril de 2025.
-NIVELAMENTO SRE
+
+---
+
 
 Sumário
 
 NIVELAMENTO SRE
-1.	Arquitetura do Sistema - Diagrama C4
-2.	Estratégia de Deploy e Resiliência
-3.	Plano de Melhoria da Confiabilidade e Percepção do Cliente
+1. Arquitetura do Sistema - Diagrama C4
+2. Estratégia de Deploy e Resiliência
+3. Plano de Melhoria da Confiabilidade e Percepção do Cliente
 
  
 # 1. Arquitetura do Sistema - Diagrama C4
