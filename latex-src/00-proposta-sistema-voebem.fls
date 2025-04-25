@@ -186,6 +186,17 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\graphics-
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT .\00-proposta-sistema-voebem.aux
 INPUT .\00-proposta-sistema-voebem.aux
 INPUT 00-proposta-sistema-voebem.aux
@@ -220,19 +231,37 @@ INPUT .\01-arquitetura-c4.tex
 INPUT .\01-arquitetura-c4.tex
 INPUT 01-arquitetura-c4.tex
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
 INPUT .\02-deploy-resiliencia.tex
 INPUT .\02-deploy-resiliencia.tex
@@ -240,6 +269,18 @@ OUTPUT 02-deploy-resiliencia.aux
 INPUT .\02-deploy-resiliencia.tex
 INPUT .\02-deploy-resiliencia.tex
 INPUT 02-deploy-resiliencia.tex
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
 INPUT .\03-confiabilidade-feedback.tex
 INPUT .\03-confiabilidade-feedback.tex
 OUTPUT 03-confiabilidade-feedback.aux
@@ -268,12 +309,32 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlme
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
 INPUT .\99-anexo-A-ER-dbml.tex
 INPUT .\99-anexo-A-ER-dbml.tex
 OUTPUT 99-anexo-A-ER-dbml.aux
 INPUT .\99-anexo-A-ER-dbml.tex
 INPUT .\99-anexo-A-ER-dbml.tex
 INPUT 99-anexo-A-ER-dbml.tex
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT ..\assets\er-diagram-voebem.pdf
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 OUTPUT 00-proposta-sistema-voebem.toc
 INPUT 00-proposta-sistema-voebem.aux
 INPUT .\01-arquitetura-c4.aux
@@ -294,6 +355,8 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
@@ -306,5 +369,7 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt12.pfb

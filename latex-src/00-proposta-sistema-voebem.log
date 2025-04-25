@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.25)  25 APR 2025 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.25)  25 APR 2025 18:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -700,76 +700,100 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks32
 \minrowclearance=\skip259
 \rownum=\count361
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 87.
+) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count362
+\lst@gtempboxa=\box60
+\lst@token=\toks33
+\lst@length=\count363
+\lst@currlwidth=\dimen267
+\lst@column=\count364
+\lst@pos=\count365
+\lst@lostspace=\dimen268
+\lst@width=\dimen269
+\lst@newlines=\count366
+\lst@lineno=\count367
+\lst@maxwidth=\dimen270
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count368
+\lst@skipnumbers=\count369
+\lst@framebox=\box61
+) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+Package hyperref Info: Option `colorlinks' set `true' on input line 89.
  (00-proposta-sistema-voebem.aux)
 \openout1 = `00-proposta-sistema-voebem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-Package hyperref Info: Link coloring ON on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+Package hyperref Info: Link coloring ON on input line 114.
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported  on input line 112.
-LaTeX Info: Redefining \degres on input line 112.
-LaTeX Info: Redefining \up on input line 112.
-\myptabbox=\box60
+(babel)             Reported  on input line 114.
+LaTeX Info: Redefining \degres on input line 114.
+LaTeX Info: Redefining \up on input line 114.
+\myptabbox=\box62
 \myptabboxwidth=\skip260
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count362
-\scratchdimen=\dimen267
-\scratchbox=\box61
-\nofMPsegments=\count363
-\nofMParguments=\count364
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count365
-\MPscratchDim=\dimen268
-\MPnumerator=\count366
-\makeMPintoPDFobject=\count367
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count370
+\scratchdimen=\dimen271
+\scratchbox=\box63
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen272
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks35
 ) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 112.
-Package microtype Info: Applying patch `item' on input line 112.
-Package microtype Info: Applying patch `toc' on input line 112.
-Package microtype Info: Applying patch `eqnum' on input line 112.
-Package microtype Info: Applying patch `footnote' on input line 112.
-Package microtype Info: Applying patch `verbatim' on input line 112.
-LaTeX Info: Redefining \microtypesetup on input line 112.
+LaTeX Info: Redefining \microtypecontext on input line 114.
+Package microtype Info: Applying patch `item' on input line 114.
+Package microtype Info: Applying patch `toc' on input line 114.
+Package microtype Info: Applying patch `eqnum' on input line 114.
+Package microtype Info: Applying patch `footnote' on input line 114.
+Package microtype Info: Applying patch `verbatim' on input line 114.
+LaTeX Info: Redefining \microtypesetup on input line 114.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 112.
+LaTeX Info: Redefining \showhyphens on input line 114.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 124.
+\c@lstlisting=\count376
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 126.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -789,7 +813,7 @@ No file 00-proposta-sistema-voebem.toc.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \cleardoublepage
+l.134 \cleardoublepage
                       % Garantido sem espa√ßo [1
 
 
@@ -797,29 +821,11 @@ l.132 \cleardoublepage
 \openout2 = `01-arquitetura-c4.aux'.
 
  (01-arquitetura-c4.tex
-
-LaTeX Warning: File `assets/c4-n1-contexto.pdf' not found on input line 19.
-
-
-01-arquitetura-c4.tex:19: Package pdftex.def Error: File `assets/c4-n1-contexto.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...=0.9\textwidth]{assets/c4-n1-contexto.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19.
-(C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+<../assets/c4-n1-contexto.pdf, id=16, 529.22719pt x 600.74437pt>
+File: ../assets/c4-n1-contexto.pdf Graphic file (type pdf)
+<use ../assets/c4-n1-contexto.pdf>
+Package pdftex.def Info: ../assets/c4-n1-contexto.pdf  used on input line 19.
+(pdftex.def)             Requested size: 409.49722pt x 464.83875pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 27.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -829,55 +835,44 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 
-]
-
-LaTeX Warning: File `assets/c4-n2-container.pdf' not found on input line 54.
-
-
-01-arquitetura-c4.tex:54: Package pdftex.def Error: File `assets/c4-n2-container.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...0.9\textwidth]{assets/c4-n2-container.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported  on input line 65.
-[3{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+(babel)             Reported  on input line 44.
+[3 <../assets/c4-n1-contexto.pdf>]
+<../assets/c4-n2-container.pdf, id=69, 920.68968pt x 1212.78094pt>
+File: ../assets/c4-n2-container.pdf Graphic file (type pdf)
+<use ../assets/c4-n2-container.pdf>
+Package pdftex.def Info: ../assets/c4-n2-container.pdf  used on input line 54.
+(pdftex.def)             Requested size: 409.49722pt x 539.4175pt.
+
 
 [4]
+
+[5 <../assets/c4-n2-container.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 106.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 Overfull \hbox (62.09201pt too wide) in paragraph at lines 106--107
 []\T1/lmr/bx/n/12 (-20) Responsabilidade: \T1/lmr/m/n/12 (-20) Con-su-mir even-tos do Sis-tema de Men-sa-ge-ria (Exem-plo: \T1/lmtt/m/n/12 ReservaConfirmada\T1/lmr/m/n/12 (-20) ,
  []
 
 
 
-[5]
-
 [6]
+<../assets/c4-n3-component-api-reservas.pdf, id=119, 1513.90594pt x 1165.35374pt>
+File: ../assets/c4-n3-component-api-reservas.pdf Graphic file (type pdf)
+<use ../assets/c4-n3-component-api-reservas.pdf>
+Package pdftex.def Info: ../assets/c4-n3-component-api-reservas.pdf  used on input line 145.
+(pdftex.def)             Requested size: 636.99722pt x 490.33434pt.
 
-LaTeX Warning: File `assets/c4-n3-component-api-reservas.pdf' not found on input line 145.
-
-
-01-arquitetura-c4.tex:145: Package pdftex.def Error: File `assets/c4-n3-component-api-reservas.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 ...{assets/c4-n3-component-api-reservas.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (182.1726pt too wide) in paragraph at lines 145--146
+Overfull \hbox (35.33434pt too wide) in paragraph at lines 145--146
  [][] 
  []
 
@@ -889,6 +884,10 @@ Overfull \hbox (55.66615pt too wide) in paragraph at lines 153--155
  []
 
 
+
+[7]
+
+[8 <../assets/c4-n3-component-api-reservas.pdf>]
 Overfull \hbox (55.06468pt too wide) in paragraph at lines 159--161
 []\T1/lmr/bx/n/12 (-20) Services (\T1/lmtt/b/n/12 ReservationService\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 SeatManagementService\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 PaymentIntegrationService\T1/lmr/bx/n/12 (-20) ,
  []
@@ -905,9 +904,7 @@ Overfull \hbox (68.8813pt too wide) in paragraph at lines 172--174
 
 
 
-[7]
-
-[8]
+[9]
 Overfull \hbox (49.6574pt too wide) in paragraph at lines 192--193
 []\T1/lmr/bx/n/12 (-20) Responsabilidade: \T1/lmr/m/n/12 (-20) Pu-bli-car even-tos de do-mÌ-nio sig-ni-fi-ca-ti-vos (Exem-plo: \T1/lmtt/m/n/12 ReservaConfirmada\T1/lmr/m/n/12 (-20) ,
  []
@@ -919,154 +916,301 @@ Overfull \hbox (11.34576pt too wide) in paragraph at lines 192--193
 
 
 
-[9])
+[10])
 
-[10]
+[11]
 \openout2 = `02-deploy-resiliencia.aux'.
 
  (02-deploy-resiliencia.tex
-
-LaTeX Warning: File `assets/diagrama-cicd.pdf' not found on input line 33.
-
-
-02-deploy-resiliencia.tex:33: Package pdftex.def Error: File `assets/diagrama-cicd.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...h=0.8\textwidth]{assets/diagrama-cicd.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../assets/diagrama-cicd.pdf, id=169, 457.71pt x 428.35031pt>
+File: ../assets/diagrama-cicd.pdf Graphic file (type pdf)
+<use ../assets/diagrama-cicd.pdf>
+Package pdftex.def Info: ../assets/diagrama-cicd.pdf  used on input line 33.
+(pdftex.def)             Requested size: 364.00139pt x 340.66759pt.
 
 
-
-[11
+[12
 
 
 
 
 ]
 
-[12]
-
-LaTeX Warning: File `assets/diagrama-bluegreen.pdf' not found on input line 73.
-
-
-02-deploy-resiliencia.tex:73: Package pdftex.def Error: File `assets/diagrama-bluegreen.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...\textwidth]{assets/diagrama-bluegreen.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[13 <../assets/diagrama-cicd.pdf>]
+<../assets/diagrama-bluegreen.pdf, id=209, 561.59813pt x 507.39563pt>
+File: ../assets/diagrama-bluegreen.pdf Graphic file (type pdf)
+<use ../assets/diagrama-bluegreen.pdf>
+Package pdftex.def Info: ../assets/diagrama-bluegreen.pdf  used on input line 73.
+(pdftex.def)             Requested size: 364.00139pt x 328.86644pt.
 
 
+[14 <../assets/diagrama-bluegreen.pdf>]
 
-[13]
+[15])
 
-[14])
-
-[15]
+[16]
 \openout2 = `03-confiabilidade-feedback.aux'.
 
  (03-confiabilidade-feedback.tex (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\T1/lmr/m/n/12 (+20) Disponibilidade API Ga-teway
- []
-
-
 Underfull \hbox (badness 4569) in paragraph at lines 61--61
 []|\T1/lmr/m/n/12 (+20) >= 99.9% de re-qui-si-Áıes bem-
  []
 
 
 
-[16
+[17
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T1/lmr/m/n/12 (+20) Alertmanager + Pa-ger-
- []
-
-
-
-[17]
-Overfull \hbox (2.2588pt too wide) in paragraph at lines 104--105
-[]\T1/lmr/bx/n/12 (-20) Liveness Pro-bes: \T1/lmr/m/n/12 (-20) Ve-ri-fi-ca-Áıes pe-ri-Û-di-cas con-fi-gu-ra-das nos De-ploy-ments/StatefulSets.
- []
-
-
 
 [18]
+
+[19]
 Underfull \hbox (badness 4647) in paragraph at lines 159--159
 []|\T1/lmr/m/n/12 (+20) Documentar pro-ce-di-men-tos passo-a-
  []
 
+<../assets/diagrama-ciclo-incidente.pdf, id=282, 250.68657pt x 415.5525pt>
+File: ../assets/diagrama-ciclo-incidente.pdf Graphic file (type pdf)
+<use ../assets/diagrama-ciclo-incidente.pdf>
+Package pdftex.def Info: ../assets/diagrama-ciclo-incidente.pdf  used on input line 168.
+(pdftex.def)             Requested size: 409.49722pt x 678.88542pt.
 
-LaTeX Warning: File `assets/diagrama-ciclo-incidente.pdf' not found on input line 168.
-
-
-03-confiabilidade-feedback.tex:168: Package pdftex.def Error: File `assets/diagrama-ciclo-incidente.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...dth]{assets/diagrama-ciclo-incidente.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Float too large for page by 2.21873pt on input line 171.
 
 
-Overfull \hbox (77.11351pt too wide) in paragraph at lines 178--179
-[]\T1/lmr/bx/n/12 (-20) CorrelaÁ„o: \T1/lmr/m/n/12 (-20) Uti-li-zar as fer-ra-men-tas de ob-ser-va-bi-li-dade (Gra-fana com Loki/Jaeger/Prometheus)
- []
-
-
-
-[19]
 
 [20]
 
-LaTeX Warning: File `assets/diagrama-fluxo-feedback.pdf' not found on input line 231.
-
-
-03-confiabilidade-feedback.tex:231: Package pdftex.def Error: File `assets/diagrama-fluxo-feedback.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...idth]{assets/diagrama-fluxo-feedback.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[21])
+[21 <../assets/diagrama-ciclo-incidente.pdf>]
 
 [22]
+<../assets/diagrama-fluxo-feedback.pdf, id=315, 277.035pt x 334.24875pt>
+File: ../assets/diagrama-fluxo-feedback.pdf Graphic file (type pdf)
+<use ../assets/diagrama-fluxo-feedback.pdf>
+Package pdftex.def Info: ../assets/diagrama-fluxo-feedback.pdf  used on input line 231.
+(pdftex.def)             Requested size: 409.49722pt x 494.06836pt.
+
 
 [23]
+
+[24 <../assets/diagrama-fluxo-feedback.pdf>])
+
+[25]
 \openout2 = `99-anexo-A-ER-dbml.aux'.
 
- (99-anexo-A-ER-dbml.tex)
+ (99-anexo-A-ER-dbml.tex
+<../assets/er-diagram-voebem.pdf, id=348, 1154.05017pt x 658.69005pt>
+File: ../assets/er-diagram-voebem.pdf Graphic file (type pdf)
+<use ../assets/er-diagram-voebem.pdf>
+Package pdftex.def Info: ../assets/er-diagram-voebem.pdf  used on input line 14.
+(pdftex.def)             Requested size: 636.99722pt x 363.58723pt.
 
-[24
+
+[26
 
 
 
 
 ]
+
+[27 <../assets/er-diagram-voebem.pdf>]
+Overfull \hbox (2.1746pt too wide) in paragraph at lines 43--44
+[]\T1/lmtt/m/n/12 fonte_reserva \T1/lmr/m/n/12 (-20) (VAR-CHAR): Ori-gem da re-serva (Ex: In-terno, Web, GDS_Amadeus),
+ []
+
+
+
+[28]
+
+[29]
+
+[30]
+Overfull \hbox (20.23764pt too wide) in paragraph at lines 137--138
+[]\T1/lmtt/m/n/12 RESERVA \T1/lmr/bx/n/12 (-20) con-tem_trecho \T1/lmr/m/n/12 (-20) um ou mais (\T1/lmtt/m/n/12 o{}\T1/lmr/m/n/12 (-20) ) \T1/lmtt/m/n/12 RESERVA_TRECHO\T1/lmr/m/n/12 (-20) s. 
+ []
+
+
+Overfull \hbox (29.40475pt too wide) in paragraph at lines 138--139
+[]\T1/lmtt/m/n/12 TRECHO \T1/lmr/bx/n/12 (-20) eh_reservado_em \T1/lmr/m/n/12 (-20) zero ou mais (\T1/lmtt/m/n/12 o{}\T1/lmr/m/n/12 (-20) ) \T1/lmtt/m/n/12 RESERVA_TRECHO\T1/lmr/m/n/12 (-20) s. 
+ []
+
+
+Overfull \hbox (24.8791pt too wide) in paragraph at lines 148--149
+[]\T1/lmtt/m/n/12 RESERVA_TRECHO \T1/lmr/m/n/12 (-20) tem um \T1/lmr/bx/n/12 (-20) as-sento_reservado_para
+ []
+
+
+
+[31]
+Overfull \hbox (38.70644pt too wide) in paragraph at lines 149--150
+[]\T1/lmtt/m/n/12 ASSENTO \T1/lmr/m/n/12 (-20) È \T1/lmr/bx/n/12 (-20) re-ser-vado_em \T1/lmr/m/n/12 (-20) zero ou mais (\T1/lmtt/m/n/12 o{}\T1/lmr/m/n/12 (-20) ) \T1/lmtt/m/n/12 RESERVA_ASSENTO\T1/lmr/m/n/12 (-20) s. 
+ []
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 176.
+
+
+[32]
+
+99-anexo-A-ER-dbml.tex:210: LaTeX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...cho integer [not null, note: 'Sequ√™ncia 
+                                                  do trecho dentro do voo (1...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:210: LaTeX Error: Invalid UTF-8 byte "AA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...cho integer [not null, note: 'Sequ√™ncia 
+                                                  do trecho dentro do voo (1...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:222: LaTeX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...te: '0=Domingo, 1=Segunda,..., 6=S√°bado'
+                                                  ]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:222: LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...te: '0=Domingo, 1=Segunda,..., 6=S√°bado'
+                                                  ]
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[33]
+
+99-anexo-A-ER-dbml.tex:259: LaTeX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 ...varchar(50) [not null, note: 'Econ√¥mica,
+                                                   Executiva, Primeira Classe']
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:259: LaTeX Error: Invalid UTF-8 byte "B4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 ...varchar(50) [not null, note: 'Econ√¥mica,
+                                                   Executiva, Primeira Classe']
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:271: LaTeX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...50) [not null, note: 'Classe espec√≠fica 
+                                                  reservada para este trecho...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:271: LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...50) [not null, note: 'Classe espec√≠fica 
+                                                  reservada para este trecho...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:278: LaTeX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278 ... date [not null, note: 'Data espec√≠fica 
+                                                  do voo para esta reserva d...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+99-anexo-A-ER-dbml.tex:278: LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278 ... date [not null, note: 'Data espec√≠fica 
+                                                  do voo para esta reserva d...
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+
+[34])
+
+[35]
 No file 00-proposta-sistema-voebem.bbl.
 \tf@toc=\write4
 \openout4 = `00-proposta-sistema-voebem.toc'.
@@ -1082,17 +1226,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 19332 strings out of 469958
- 326222 string characters out of 5464937
- 776944 words of memory out of 5000000
- 45584 multiletter control sequences out of 15000+600000
- 684714 words of font info for 150 fonts, out of 8000000 for 9000
+ 20988 strings out of 469958
+ 346616 string characters out of 5464937
+ 1125454 words of memory out of 5000000
+ 47065 multiletter control sequences out of 15000+600000
+ 688478 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,107p,1025b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 00-proposta-sistema-voebem.pdf (25 pages, 350705 bytes).
+ 99i,13n,107p,1025b,2199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 00-proposta-sistema-voebem.pdf (36 pages, 732274 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 34153 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 257 named destinations out of 1000 (max. 500000)
+ 36753 words of extra memory for PDF output out of 42996 (max. 10000000)
 
