@@ -1,4 +1,4 @@
-PWD c:\Users\Frederyck Sales\Desktop\My Docs\Proposta-para-o-Sistema-VOEBEM\latex-src
+PWD c:\Users\Frederyck Sales\OneDrive\Documentos\GitHub\Proposta-para-o-Sistema-VOEBEM\latex-src
 INPUT C:\Users\Frederyck Sales\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT 00-proposta-sistema-voebem.tex
 OUTPUT 00-proposta-sistema-voebem.log
@@ -189,6 +189,18 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\
 INPUT .\00-proposta-sistema-voebem.aux
 INPUT .\00-proposta-sistema-voebem.aux
 INPUT 00-proposta-sistema-voebem.aux
+INPUT .\01-arquitetura-c4.aux
+INPUT .\01-arquitetura-c4.aux
+INPUT 01-arquitetura-c4.aux
+INPUT .\02-deploy-resiliencia.aux
+INPUT .\02-deploy-resiliencia.aux
+INPUT 02-deploy-resiliencia.aux
+INPUT .\03-confiabilidade-feedback.aux
+INPUT .\03-confiabilidade-feedback.aux
+INPUT 03-confiabilidade-feedback.aux
+INPUT .\99-anexo-A-ER-dbml.aux
+INPUT .\99-anexo-A-ER-dbml.aux
+INPUT 99-anexo-A-ER-dbml.aux
 OUTPUT 00-proposta-sistema-voebem.aux
 OUTPUT 00-proposta-sistema-voebem.pdf
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -213,39 +225,10 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm
 INPUT C:\Users\Frederyck Sales\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
-INPUT .\01-arquitetura-c4.tex
-INPUT .\01-arquitetura-c4.tex
-OUTPUT 01-arquitetura-c4.aux
-INPUT .\01-arquitetura-c4.tex
-INPUT .\01-arquitetura-c4.tex
-INPUT 01-arquitetura-c4.tex
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
-INPUT .\02-deploy-resiliencia.tex
-INPUT .\02-deploy-resiliencia.tex
-OUTPUT 02-deploy-resiliencia.aux
-INPUT .\02-deploy-resiliencia.tex
-INPUT .\02-deploy-resiliencia.tex
-INPUT 02-deploy-resiliencia.tex
-INPUT .\03-confiabilidade-feedback.tex
-INPUT .\03-confiabilidade-feedback.tex
-OUTPUT 03-confiabilidade-feedback.aux
-INPUT .\03-confiabilidade-feedback.tex
-INPUT .\03-confiabilidade-feedback.tex
-INPUT 03-confiabilidade-feedback.tex
+INPUT .\00-proposta-sistema-voebem.toc
+INPUT .\00-proposta-sistema-voebem.toc
+INPUT 00-proposta-sistema-voebem.toc
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -268,6 +251,74 @@ INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlme
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
 INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
+INPUT .\01-arquitetura-c4.tex
+INPUT .\01-arquitetura-c4.tex
+OUTPUT 01-arquitetura-c4.aux
+INPUT .\01-arquitetura-c4.tex
+INPUT .\01-arquitetura-c4.tex
+INPUT 01-arquitetura-c4.tex
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmss17.tfm
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT ..\assets\c4-n1-contexto.pdf
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri12.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT ..\assets\c4-n2-container.pdf
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT ..\assets\c4-n3-component-api-reservas.pdf
+INPUT C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
+INPUT .\02-deploy-resiliencia.tex
+INPUT .\02-deploy-resiliencia.tex
+OUTPUT 02-deploy-resiliencia.aux
+INPUT .\02-deploy-resiliencia.tex
+INPUT .\02-deploy-resiliencia.tex
+INPUT 02-deploy-resiliencia.tex
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-cicd.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT ..\assets\diagrama-bluegreen.pdf
+INPUT .\03-confiabilidade-feedback.tex
+INPUT .\03-confiabilidade-feedback.tex
+OUTPUT 03-confiabilidade-feedback.aux
+INPUT .\03-confiabilidade-feedback.tex
+INPUT .\03-confiabilidade-feedback.tex
+INPUT 03-confiabilidade-feedback.tex
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-ciclo-incidente.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
+INPUT ..\assets\diagrama-fluxo-feedback.pdf
 INPUT .\99-anexo-A-ER-dbml.tex
 INPUT .\99-anexo-A-ER-dbml.tex
 OUTPUT 99-anexo-A-ER-dbml.aux

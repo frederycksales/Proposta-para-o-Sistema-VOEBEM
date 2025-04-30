@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.25)  25 APR 2025 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.4.29)  29 APR 2025 23:27
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -463,7 +463,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count335
 )) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/03/27 v25.6 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+Package: babel 2025/04/14 v25.7 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count336
 \U@D=\dimen195
 \l@unhyphenated=\language79
@@ -701,33 +701,34 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \minrowclearance=\skip259
 \rownum=\count361
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 87.
- (00-proposta-sistema-voebem.aux)
+Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+ (00-proposta-sistema-voebem.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported  on input line 18.
+ (01-arquitetura-c4.aux) (02-deploy-resiliencia.aux) (03-confiabilidade-feedback.aux) (99-anexo-A-ER-dbml.aux))
 \openout1 = `00-proposta-sistema-voebem.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-Package hyperref Info: Link coloring ON on input line 112.
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported  on input line 112.
-LaTeX Info: Redefining \degres on input line 112.
-LaTeX Info: Redefining \up on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package hyperref Info: Link coloring ON on input line 113.
+LaTeX Info: Redefining \degres on input line 113.
+LaTeX Info: Redefining \up on input line 113.
 \myptabbox=\box60
 \myptabboxwidth=\skip260
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -749,27 +750,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 112.
-Package microtype Info: Applying patch `item' on input line 112.
-Package microtype Info: Applying patch `toc' on input line 112.
-Package microtype Info: Applying patch `eqnum' on input line 112.
-Package microtype Info: Applying patch `footnote' on input line 112.
-Package microtype Info: Applying patch `verbatim' on input line 112.
-LaTeX Info: Redefining \microtypesetup on input line 112.
+LaTeX Info: Redefining \microtypecontext on input line 113.
+Package microtype Info: Applying patch `item' on input line 113.
+Package microtype Info: Applying patch `toc' on input line 113.
+Package microtype Info: Applying patch `eqnum' on input line 113.
+Package microtype Info: Applying patch `footnote' on input line 113.
+Package microtype Info: Applying patch `verbatim' on input line 113.
+LaTeX Info: Redefining \microtypesetup on input line 113.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 112.
+LaTeX Info: Redefining \showhyphens on input line 113.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 124.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 125.
  (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -781,200 +782,176 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 [1
 
-{C:/Users/Frederyck Sales/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-No file 00-proposta-sistema-voebem.toc.
+{C:/Users/Frederyck Sales/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (00-proposta-sistema-voebem.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 \cleardoublepage
-                      % Garantido sem espaÃ§o [1
+l.41 ...caling (Kubernetes)}{20}{subsection.3.2.2}
+                                                  % [1
 
 
-]
+])
+
+[2]
 \openout2 = `01-arquitetura-c4.aux'.
 
  (01-arquitetura-c4.tex
+<../assets/c4-n1-contexto.pdf, id=110, 529.22719pt x 600.74437pt>
+File: ../assets/c4-n1-contexto.pdf Graphic file (type pdf)
+<use ../assets/c4-n1-contexto.pdf>
+Package pdftex.def Info: ../assets/c4-n1-contexto.pdf  used on input line 18.
+(pdftex.def)             Requested size: 409.49722pt x 464.83875pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 26.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 
-LaTeX Warning: File `assets/c4-n1-contexto.pdf' not found on input line 19.
+[3
 
 
-01-arquitetura-c4.tex:19: Package pdftex.def Error: File `assets/c4-n1-contexto.pdf' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...=0.9\textwidth]{assets/c4-n1-contexto.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 19.
-(C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported  on input line 43.
+[4 <../assets/c4-n1-contexto.pdf>]
+<../assets/c4-n2-container.pdf, id=157, 920.68968pt x 1212.78094pt>
+File: ../assets/c4-n2-container.pdf Graphic file (type pdf)
+<use ../assets/c4-n2-container.pdf>
+Package pdftex.def Info: ../assets/c4-n2-container.pdf  used on input line 53.
+(pdftex.def)             Requested size: 364.00139pt x 479.49661pt.
+
+
+[5]
+
+[6 <../assets/c4-n2-container.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 105.
+ (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 27.
- (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 
-[2
-
-
-
-]
-
-LaTeX Warning: File `assets/c4-n2-container.pdf' not found on input line 54.
-
-
-01-arquitetura-c4.tex:54: Package pdftex.def Error: File `assets/c4-n2-container.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...0.9\textwidth]{assets/c4-n2-container.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported  on input line 65.
-[3{C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-[4]
-Overfull \hbox (62.09201pt too wide) in paragraph at lines 106--107
+Overfull \hbox (62.09201pt too wide) in paragraph at lines 105--106
 []\T1/lmr/bx/n/12 (-20) Responsabilidade: \T1/lmr/m/n/12 (-20) Con-su-mir even-tos do Sis-tema de Men-sa-ge-ria (Exem-plo: \T1/lmtt/m/n/12 ReservaConfirmada\T1/lmr/m/n/12 (-20) ,
  []
 
 
 
-[5]
+[7]
+<../assets/c4-n3-component-api-reservas.pdf, id=205, 1513.90594pt x 1165.35374pt>
+File: ../assets/c4-n3-component-api-reservas.pdf Graphic file (type pdf)
+<use ../assets/c4-n3-component-api-reservas.pdf>
+Package pdftex.def Info: ../assets/c4-n3-component-api-reservas.pdf  used on input line 144.
+(pdftex.def)             Requested size: 636.99722pt x 490.33434pt.
 
-[6]
-
-LaTeX Warning: File `assets/c4-n3-component-api-reservas.pdf' not found on input line 145.
-
-
-01-arquitetura-c4.tex:145: Package pdftex.def Error: File `assets/c4-n3-component-api-reservas.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 ...{assets/c4-n3-component-api-reservas.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (182.1726pt too wide) in paragraph at lines 145--146
+Overfull \hbox (35.33434pt too wide) in paragraph at lines 144--145
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 153.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 152.
 
-Overfull \hbox (55.66615pt too wide) in paragraph at lines 153--155
+Overfull \hbox (55.66615pt too wide) in paragraph at lines 152--154
 []\T1/lmr/bx/n/12 (-20) Controllers (\T1/lmtt/b/n/12 ReservationController\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 PassengerController\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 CheckinDataController\T1/lmr/bx/n/12 (-20) ) 
  []
 
 
-Overfull \hbox (55.06468pt too wide) in paragraph at lines 159--161
+
+[8]
+
+[9 <../assets/c4-n3-component-api-reservas.pdf>]
+Overfull \hbox (55.06468pt too wide) in paragraph at lines 158--160
 []\T1/lmr/bx/n/12 (-20) Services (\T1/lmtt/b/n/12 ReservationService\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 SeatManagementService\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 PaymentIntegrationService\T1/lmr/bx/n/12 (-20) ,
  []
 
 
-Overfull \hbox (40.9022pt too wide) in paragraph at lines 166--167
+Overfull \hbox (40.9022pt too wide) in paragraph at lines 165--166
 []\T1/lmtt/m/n/12 PaymentIntegrationService\T1/lmr/m/n/12 (-20) : Co-or-dena a co-mu-ni-ca-ção com o \T1/lmtt/m/n/12 PaymentGatewayClient
  []
 
 
-Overfull \hbox (68.8813pt too wide) in paragraph at lines 172--174
+Overfull \hbox (68.8813pt too wide) in paragraph at lines 171--173
 []\T1/lmr/bx/n/12 (-20) Repositories (\T1/lmtt/b/n/12 ReservationRepository\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 PassengerRepository\T1/lmr/bx/n/12 (-20) , \T1/lmtt/b/n/12 ReservedSeatRepository\T1/lmr/bx/n/12 (-20) ) 
  []
 
 
 
-[7]
-
-[8]
-Overfull \hbox (49.6574pt too wide) in paragraph at lines 192--193
+[10]
+Overfull \hbox (49.6574pt too wide) in paragraph at lines 191--192
 []\T1/lmr/bx/n/12 (-20) Responsabilidade: \T1/lmr/m/n/12 (-20) Pu-bli-car even-tos de do-mí-nio sig-ni-fi-ca-ti-vos (Exem-plo: \T1/lmtt/m/n/12 ReservaConfirmada\T1/lmr/m/n/12 (-20) ,
  []
 
 
-Overfull \hbox (11.34576pt too wide) in paragraph at lines 192--193
+Overfull \hbox (11.34576pt too wide) in paragraph at lines 191--192
 \T1/lmtt/m/n/12 PagamentoFalhou\T1/lmr/m/n/12 (-20) ) no \T1/lmtt/m/n/12 Sistema de Mensageria \T1/lmr/m/n/12 (-20) para pro-ces-sa-mento as-sín-crono (Exem-
  []
 
 
 
-[9])
+[11])
 
-[10]
+[12]
 \openout2 = `02-deploy-resiliencia.aux'.
 
  (02-deploy-resiliencia.tex
-
-LaTeX Warning: File `assets/diagrama-cicd.pdf' not found on input line 33.
-
-
-02-deploy-resiliencia.tex:33: Package pdftex.def Error: File `assets/diagrama-cicd.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...h=0.8\textwidth]{assets/diagrama-cicd.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../assets/diagrama-cicd.pdf, id=249, 457.71pt x 428.35031pt>
+File: ../assets/diagrama-cicd.pdf Graphic file (type pdf)
+<use ../assets/diagrama-cicd.pdf>
+Package pdftex.def Info: ../assets/diagrama-cicd.pdf  used on input line 33.
+(pdftex.def)             Requested size: 364.00139pt x 340.66759pt.
 
 
-
-[11
+[13
 
 
 
 
 ]
 
-[12]
-
-LaTeX Warning: File `assets/diagrama-bluegreen.pdf' not found on input line 73.
-
-
-02-deploy-resiliencia.tex:73: Package pdftex.def Error: File `assets/diagrama-bluegreen.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...\textwidth]{assets/diagrama-bluegreen.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[14 <../assets/diagrama-cicd.pdf>]
+<../assets/diagrama-bluegreen.pdf, id=283, 561.59813pt x 507.39563pt>
+File: ../assets/diagrama-bluegreen.pdf Graphic file (type pdf)
+<use ../assets/diagrama-bluegreen.pdf>
+Package pdftex.def Info: ../assets/diagrama-bluegreen.pdf  used on input line 73.
+(pdftex.def)             Requested size: 364.00139pt x 328.86644pt.
 
 
+[15 <../assets/diagrama-bluegreen.pdf>]
 
-[13]
+[16])
 
-[14])
-
-[15]
+[17]
 \openout2 = `03-confiabilidade-feedback.aux'.
 
- (03-confiabilidade-feedback.tex (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd) (C:\Users\Frederyck Sales\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
+ (03-confiabilidade-feedback.tex
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\T1/lmr/m/n/12 (+20) Disponibilidade API Ga-teway
  []
@@ -986,7 +963,7 @@ Underfull \hbox (badness 4569) in paragraph at lines 61--61
 
 
 
-[16
+[18
 
 
 
@@ -998,32 +975,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
 
 
-[17]
+[19]
 Overfull \hbox (2.2588pt too wide) in paragraph at lines 104--105
 []\T1/lmr/bx/n/12 (-20) Liveness Pro-bes: \T1/lmr/m/n/12 (-20) Ve-ri-fi-ca-ções pe-ri-ó-di-cas con-fi-gu-ra-das nos De-ploy-ments/StatefulSets.
  []
 
 
 
-[18]
+[20]
 Underfull \hbox (badness 4647) in paragraph at lines 159--159
 []|\T1/lmr/m/n/12 (+20) Documentar pro-ce-di-men-tos passo-a-
  []
 
+<../assets/diagrama-ciclo-incidente.pdf, id=339, 250.68657pt x 415.5525pt>
+File: ../assets/diagrama-ciclo-incidente.pdf Graphic file (type pdf)
+<use ../assets/diagrama-ciclo-incidente.pdf>
+Package pdftex.def Info: ../assets/diagrama-ciclo-incidente.pdf  used on input line 168.
+(pdftex.def)             Requested size: 409.49722pt x 678.88542pt.
 
-LaTeX Warning: File `assets/diagrama-ciclo-incidente.pdf' not found on input line 168.
-
-
-03-confiabilidade-feedback.tex:168: Package pdftex.def Error: File `assets/diagrama-ciclo-incidente.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...dth]{assets/diagrama-ciclo-incidente.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Float too large for page by 2.21873pt on input line 171.
 
 
 Overfull \hbox (77.11351pt too wide) in paragraph at lines 178--179
@@ -1032,67 +1002,54 @@ Overfull \hbox (77.11351pt too wide) in paragraph at lines 178--179
 
 
 
-[19]
+[21]
 
-[20]
-
-LaTeX Warning: File `assets/diagrama-fluxo-feedback.pdf' not found on input line 231.
-
-
-03-confiabilidade-feedback.tex:231: Package pdftex.def Error: File `assets/diagrama-fluxo-feedback.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...idth]{assets/diagrama-fluxo-feedback.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[21])
-
-[22]
+[22 <../assets/diagrama-ciclo-incidente.pdf>]
 
 [23]
+<../assets/diagrama-fluxo-feedback.pdf, id=368, 277.035pt x 334.24875pt>
+File: ../assets/diagrama-fluxo-feedback.pdf Graphic file (type pdf)
+<use ../assets/diagrama-fluxo-feedback.pdf>
+Package pdftex.def Info: ../assets/diagrama-fluxo-feedback.pdf  used on input line 231.
+(pdftex.def)             Requested size: 409.49722pt x 494.06836pt.
+
+
+[24]
+
+[25 <../assets/diagrama-fluxo-feedback.pdf>])
+
+[26]
 \openout2 = `99-anexo-A-ER-dbml.aux'.
 
  (99-anexo-A-ER-dbml.tex)
 
-[24
+[27
 
 
 
 
 ]
-No file 00-proposta-sistema-voebem.bbl.
 \tf@toc=\write4
 \openout4 = `00-proposta-sistema-voebem.toc'.
 
-(00-proposta-sistema-voebem.aux (01-arquitetura-c4.aux) (02-deploy-resiliencia.aux) (03-confiabilidade-feedback.aux) (99-anexo-A-ER-dbml.aux))
+ (00-proposta-sistema-voebem.aux (01-arquitetura-c4.aux) (02-deploy-resiliencia.aux) (03-confiabilidade-feedback.aux) (99-anexo-A-ER-dbml.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 19332 strings out of 469958
- 326222 string characters out of 5464937
- 776944 words of memory out of 5000000
- 45584 multiletter control sequences out of 15000+600000
- 684714 words of font info for 150 fonts, out of 8000000 for 9000
+ 19210 strings out of 469959
+ 321353 string characters out of 5464958
+ 784440 words of memory out of 5000000
+ 45442 multiletter control sequences out of 15000+600000
+ 687785 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1025b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Frederyck Sales/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 00-proposta-sistema-voebem.pdf (25 pages, 350705 bytes).
+Output written on 00-proposta-sistema-voebem.pdf (28 pages, 609002 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 34153 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 36236 words of extra memory for PDF output out of 42996 (max. 10000000)
 
