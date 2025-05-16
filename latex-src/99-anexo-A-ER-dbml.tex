@@ -153,27 +153,7 @@ Tabela associativa que liga um \texttt{RESERVA\_TRECHO} a um \texttt{ASSENTO} es
 
 Abaixo está o esquema do banco de dados definido usando a sintaxe DBML (Database Markup Language). Este esquema é uma representação textual do diagrama ER, facilitando a criação e manutenção do banco de dados.
 
-\begin{lstlisting}[language={}, % Nenhuma linguagem específica definida para DBML no listings
-    basicstyle=\footnotesize\ttfamily, % Fonte monoespaçada pequena
-    breaklines=true, % Quebra linhas longas automaticamente
-    caption={Esquema DBML - Sistema VOEBEM},
-    label={lst:dbml-schema},
-    showstringspaces=false, % Não mostra espaços em strings de forma especial
-    tabsize=2, % Define o tamanho da tabulação
-    frame=single, % Adiciona uma moldura simples
-    numbers=left, % Adiciona numeração de linhas à esquerda
-    numberstyle=\tiny\color{gray}, % Estilo da numeração de linhas
-    % --- Correções para caracteres especiais --- 
-    literate={_}{{\_}}1 % Trata underscore como texto literal
-             {`}{{\texttt{\`}}}1, % Trata backtick como texto literal (usando texttt)
-             % Aspas simples (') parecem ok, pois já estão escapadas nas notas
-             % Maior que (>) em Refs parece ok por padrão
-    % -------------------------------------------
-    % Estilos opcionais (podem ser removidos se causarem problemas)
-    keywordstyle=\color{blue}, 
-    commentstyle=\color{green!60!black}, 
-    stringstyle=\color{purple}
-]
+\begin{verbatim}
 Table PASSAGEIRO {
   id_passageiro integer [pk, increment]
   nome varchar(255) [not null]
@@ -296,6 +276,6 @@ Ref: VOO.aeroporto_origem_final > AEROPORTO.id_aeroporto
 Ref: VOO.aeroporto_destino_final > AEROPORTO.id_aeroporto
 Ref: RESERVA_ASSENTO.(reserva_id, trecho_id) > RESERVA_TRECHO.(reserva_id, trecho_id)
 Ref: RESERVA_ASSENTO.assento_id > ASSENTO.id_assento
-\end{lstlisting}
+\end{verbatim}
 
 % --- Final do Arquivo ---
