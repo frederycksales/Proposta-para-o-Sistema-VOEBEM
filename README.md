@@ -18,6 +18,33 @@ A proposta detalha os seguintes aspectos principais, conforme solicitado no [mod
 
 **A proposta consolidada e formatada encontra-se no arquivo [Proposta-sistema-voebem.pdf](Proposta-sistema-voebem.pdf) na raiz deste repositório.**
 
+## Como Gerar o Documento PDF
+
+Para gerar o arquivo `Proposta-sistema-voebem.pdf` a partir dos fontes LaTeX:
+
+1.  **Pré-requisitos:**
+    *   Possuir uma distribuição LaTeX instalada (por exemplo, MiKTeX para Windows, TeX Live para Linux/macOS).
+    *   O utilitário `latexmk` (geralmente incluído nas distribuições LaTeX).
+
+2.  **Passos para Compilação:**
+    *   Abra um terminal e navegue até o diretório `latex-src/`:
+        ```shell
+        cd latex-src
+        ```
+    *   Execute o comando `latexmk`:
+        ```shell
+        latexmk -pdf 00-proposta-sistema-voebem.tex
+        ```
+        Para uma compilação forçada, utilize:
+        ```shell
+        latexmk -f -pdf 00-proposta-sistema-voebem.tex
+        ```
+        Isso gerará o arquivo `00-proposta-sistema-voebem.pdf` dentro da pasta `latex-src/`.
+
+3.  **Documento Final:**
+    *   O principal artefato da proposta é o arquivo `Proposta-sistema-voebem.pdf` localizado na raiz do repositório.
+    *   Após a compilação bem-sucedida, o arquivo `00-proposta-sistema-voebem.pdf` gerado em `latex-src/` deve ser copiado para a raiz do projeto e renomeado para `Proposta-sistema-voebem.pdf`. Este passo pode ser manual.
+
 ## Estrutura do Repositório
 
 *   `/`: Contém o PDF final da proposta e este README.
